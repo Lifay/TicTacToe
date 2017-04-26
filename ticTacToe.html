@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe </title>
+    <link rel="stylesheet" type="text/css" href="ticTacToe.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="ticTacToe.js"></script>
+
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    <h2>Choose: <span class="playerX chosen">X</span> or <span class="playerO">O</span></h2>
+    
+    <div id="win"></div>
+
+    <table>
+
+        <tr>
+            <td id="R1C1"></td>
+            <td id="R1C2" class="vertical"></td>
+            <td id="R1C3"></td>
+        </tr>
+
+        <tr>
+            <td id="R2C1" class="horizontal"></td>
+            <td id="R2C2" class="vertical horizontal"></td>
+            <td id="R2C3" class="horizontal"></td>
+        </tr>
+
+        <tr>
+            <td id="R3C1"></td>
+            <td id="R3C2" class="vertical"></td>
+            <td id="R3C3"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
